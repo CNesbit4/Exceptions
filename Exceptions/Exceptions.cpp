@@ -8,6 +8,9 @@ int main()
 	try
 	{
 		cout << character('a', 1);
+		cout << character('a', -1);
+		cout << character('Z', -1);
+		cout << character('?', 5);
 	}
 	catch(string exc)
 	{
