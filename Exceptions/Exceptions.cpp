@@ -27,6 +27,6 @@ char character(char start, int offset)
 	}
 	else
 	{
-		return (start - offset);
+		return (start + offset);
 	}
 }
